@@ -1,11 +1,17 @@
 #include <stdio.h>
+
 /**
 * main - prints the alphabet in lowercase, followed by a new line.
 */
 int main(void)
 {
-    char ch = 'a';
+   int ch;
+   for(ch=97;ch<=122;ch++);
     for ("ch = 'a'; ch <= 'z'; ++c);
-        putchar("%c\n", ch);
+    {
+        putchar(10);
+    }
+    putchar("\n")
+    
     return (0);
 }  
