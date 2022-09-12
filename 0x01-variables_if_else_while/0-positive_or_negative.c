@@ -1,16 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - assign a random number to the variable n it is executed and prints out
- * based a condition
- * Return : always 0
- */
+* main - assign a random number to the variable n itis executed and printsout
+* based a condition
+* Return : always 0
+*/
 int main(void)
 {
 int n;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
