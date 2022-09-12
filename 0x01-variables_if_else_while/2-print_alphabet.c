@@ -4,8 +4,8 @@
 */
 int main(void)
 {
-    char ch = a;
+    char ch = 'a';
     for ("ch = 'a'; ch <= 'z'; ++c);
-        putchar("%c\n", c);
+        putchar("%c\n", ch);
     return (0);
 }  
