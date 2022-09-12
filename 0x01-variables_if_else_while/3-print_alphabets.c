@@ -9,8 +9,15 @@ int main(void)
 {
 	int ch;
 
-	c
-	putchar(10); /** this is ascii code for new line) */
+	for (ch = 97; ch <= 122; ch++)
+	{
+		putchar(ch);
+    }
+	for (ch = 65; ch <= 90; ch++)
+	{
+		putchar(ch);
+    }
+	putchar(10);
 
-	return (0);
+return (0);
 }
