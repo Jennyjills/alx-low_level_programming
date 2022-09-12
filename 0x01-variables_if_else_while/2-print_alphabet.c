@@ -3,7 +3,7 @@
 /**
  * main -> prints the alphabets in lowercase
  * Return : always zero
- * /
+ */
 int main(void)
 {
         int ch;
@@ -11,7 +11,7 @@ int main(void)
         {
             putchar(ch);
         }
-        putchar(10); /* this is ascii code for new line)
+        putchar(10); /** this is ascii code for new line) */
 
         return (0);
 }
