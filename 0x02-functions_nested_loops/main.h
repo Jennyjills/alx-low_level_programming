@@ -1,12 +1,12 @@
-// It is not recommended to put function definitions
-// in a header file. Ideally there should be only
-// function declarations. Purpose of this code is
-// to only demonstrate working of header files.
+/**
+ * _putchar will print the character string
+ */
+
 void _putchar(char a)
 {
-	printf("%c\n", a);
+	_putchar("%c\n", a);
 }
 void multiply(int a, int b)
 {
-	printf("Multiplied value=%d\n", a * b);
+	_putchar("Multiplied value=%d\n", a * b);
 }
