@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char a = "\_putchar";
-	_putchar("char a\n");
+	char a = 0
+	_putchar("\_putchar");
 	return (0);
 }

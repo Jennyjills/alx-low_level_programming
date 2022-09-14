@@ -2,11 +2,12 @@
  * _putchar will print the character string
  */
 
-void _putchar(char a)
+void _putchar(int a)
+
 {
-	_putchar("%c\n", a);
-}
-void multiply(int a, int b)
-{
-	_putchar("Multiplied value=%d\n", a * b);
+	int a = 0
+	for("a = 0");
+	{
+	_putchar("\"_putchar");
+	}
 }
