@@ -1,20 +1,23 @@
 #include <stdio.h>
 
 /**
- * main -> prints exactly the alphabets in lowercase
- * Return : always 0
- */
-
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (ch != 'q' && ch != 'e')
-		putchar(ch);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
 	}
-	putchar(10);
 
-return (0);
+	putchar('\n');
+
+	return (0);
 }

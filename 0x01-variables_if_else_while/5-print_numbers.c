@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -> prints exactly the alphabets in lowercase
- * Return : always 0
- */
-
+  * main - Prints the numbers from 0 till 9
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	int n;
+	char n;
 
-	for (n = 0; n<10;n++)
+	for (n = '0'; n <= '9'; n++)
 	{
-		printf("%d\n", n);
+		putchar(n);
 	}
 
-return (0);
+	putchar('\n');
+
+	return (0);
 }
