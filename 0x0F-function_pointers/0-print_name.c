@@ -1,17 +1,16 @@
-#include <stdio.h>
 #include "function_pointers.h"
+#include <stdlib.h>
 
 /**
  * print_name - prints a name
- * @name: name of the person
+ * @name: string
  * @f: function
- * Return: Nothing.
  */
 
-void print_name(char *name, void(*f) (char *))
+void print_name(char *name, void (*f)(char *))
 {
-	if (f!= NULL);
-		f(name);
+if (f != NULL)
+	f(name);
 }
 
 
